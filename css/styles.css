@@ -28,3 +28,15 @@ body{
 .site-nav .link:focus{
     color: #212121;
 }
+/*Hero*/
+.hero-title{
+    color: #000;
+}
+/*Section*/
+.section-title{
+    color: #000;
+}
+/*Section*/
+.features-list .title{
+color: #000;
+}
