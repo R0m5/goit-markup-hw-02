@@ -5,7 +5,8 @@
     --adress-color: rgba(255, 255, 255, 0.6);
     --navigation-color:#2196F3;
     --primary-white-color: #fff;
-
+    --background-color:#2F303A;
+    --backgroun-color2: #F5F5F5;
 }
 body{
     background-color: #fff;
@@ -46,7 +47,8 @@ body{
     color: var(--accent-color);
 }
 /*Section*/
-.section-title{
+.hero{
+    background-color:var(--background-color);
     color: var(--primary-text-color);
 }
 /*Section*/
@@ -56,10 +58,26 @@ color: var(--primary-text-color);
 .button-hero{
     color: var(--primary-text-color);
     background-color:var(--primary-bg-color);
-    font-size: 24px;
-    padding: 12px 24px;
-    display: inline-block;
 }
 .button {
-    background-color: #F5F4FA;
+    background-color: var(--navigation-color);
+    color: #FFF;
+}
+.header{
+    background-color: #FFF;
+}
+.logo-footer{
+    color:var(--accent-color);
+}
+.logotype-footer{
+    color:var(--navigation-color);
+}
+.footer{
+    background-color: var(--background-color);
+}
+.city{
+    color:var(--primary-white-color);
+}
+.adress{
+    color: var(--adress-color);
 }
