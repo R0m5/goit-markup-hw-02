@@ -9,11 +9,18 @@
     --backgroun-color2: #F5F5F5;
 }
 body{
-    background-color: #fff;
+    background-color:var(--accent-color);
     color: var(--primary-text-color);
+    font-family:"Roboto", sans-serif;
+    letter-spacing: 0.03em;
+    
 }
 .logo{
     color:#000;
+    font-family:Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1,19px;
 }
 .logo:hover{
     color: var(--navigation-color);
@@ -24,10 +31,18 @@ body{
 .list{
     list-style: none;
 }
-
+.tel{
+    color: var(--secondary-text-color);
+}
+.email{
+    color: var(--navigation-color);
+}
 /*Site nav*/
 .site-nav .link {
     color:var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14px;
 }
 .site-nav .link:hover,
 .site-nav .link:focus{
@@ -37,6 +52,11 @@ body{
 .site-nav .link.studio{
     color:var(--navigation-color);
 }
+.auth-nav{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14px;
+}
 
 .portfolio:hover,
 .portfolio:focus {
@@ -45,6 +65,13 @@ body{
 /*Hero*/
 .hero-title{
     color: var(--accent-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1,36px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
 }
 /*Section*/
 .hero{
@@ -55,13 +82,30 @@ body{
 .features-list .title{
 color: var(--primary-text-color);
 }
+.paragraph{
+    color: #757575;
+}
+.section-title{
+    color: var(--primary-text-color);
+}
+
 .button-hero{
     color: var(--primary-text-color);
     background-color:var(--primary-bg-color);
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1,87px;
 }
+.button-hero {
+    color: var(--clear-white-color);
+    background-color: var(--accent-color);
+  }
 .button {
     background-color: var(--navigation-color);
     color: #FFF;
+    font-family: inherit;
+    
 }
 .header{
     background-color: #FFF;
