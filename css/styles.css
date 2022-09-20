@@ -17,6 +17,7 @@ body{
     letter-spacing: 0.03em;
     
 }
+/*Header*/
 .logo{
     color:var(--logo-color);
     font-family: Raleway, sans-serif;
@@ -37,18 +38,6 @@ body{
 .list{
     list-style: none;
 }
-.auth-nav .contacts:hover,
-.auth-nav .contacts:focus{
-    color: var(--navigation-color);
-}
-.contacts{
-    color: var(--secondary-text-color);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1,14;
-    letter-spacing: 0.02em;
-    text-decoration: none;
-}
 /*Site nav*/
 .site-nav .link{
     color:var(--primary-text-color);
@@ -62,9 +51,17 @@ body{
 .site-nav .link:focus{
     color: var(--navigation-color);
 }
-
-.site-nav .link.studio{
-    color:var(--navigation-color);
+.auth-nav .contacts:hover,
+.auth-nav .contacts:focus{
+    color: var(--navigation-color);
+}
+.contacts{
+    color: var(--secondary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
 }
 .auth-nav{
     font-weight: 500;
@@ -72,10 +69,6 @@ body{
     line-height: 1,14;
 }
 
-.portfolio:hover,
-.portfolio:focus {
-    color: var(--nav-color);
-}
 /*Hero*/
 .hero-title{
     color: var(--accent-color);
@@ -115,15 +108,14 @@ color: var(--primary-text-color);
     line-height: 42px;
     text-align: center;
 }
-.button-hero{
+.section-hryak{
     color: var(--primary-text-color);
-    background-color:var(--primary-bg-color);
     font-weight: 700;
-    font-size: 16px;
-    line-height: 1,87;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
 }
+
 .button-hero{
     background-color: var(--navigation-color);
     color:var(--primary-white-color);
@@ -133,6 +125,23 @@ color: var(--primary-text-color);
     font-size: 16px;
     line-height: 1.9;
     text-align: center;
+    align-items: center;
+    letter-spacing: 0.06em;
+}
+.button2{
+    color: var(--primary-text-color);
+    background: var(--background-color3);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    border-radius: 4px;
+    text-decoration: none;
+}
+.button2:hover,
+.button2:focus{
+    color: var(--accent-color);
+    background-color: var(--navigation-color);
 }
 
 .paragraph2{
@@ -142,6 +151,13 @@ color: var(--primary-text-color);
     line-height: 1.18;
     text-align: center;
 }
+.paragraph3{
+    color: var(--secondary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+}
+
 .people{
     background: var(--background-color3);
 }
