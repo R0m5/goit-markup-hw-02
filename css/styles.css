@@ -7,6 +7,8 @@
     --primary-white-color: #fff;
     --background-color:#2F303A;
     --backgroun-color2: #F5F5F5;
+    --background-color3: #F5F4FA;
+    --logo-color: #000000;
 }
 body{
     background-color:var(--accent-color);
@@ -16,11 +18,15 @@ body{
     
 }
 .logo{
-    color:#000;
-    font-family:Raleway, sans-serif;
+    color:var(--logo-color);
+    font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1,19px;
+    line-height: 1,19;
+    text-decoration: none;
+}
+.header{
+    background-color: var(--accent-color);
 }
 .logo:hover{
     color: var(--navigation-color);
@@ -31,18 +37,26 @@ body{
 .list{
     list-style: none;
 }
-.tel{
-    color: var(--secondary-text-color);
-}
-.email{
+.auth-nav .contacts:hover,
+.auth-nav .contacts:focus{
     color: var(--navigation-color);
 }
+.contacts{
+    color: var(--secondary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
 /*Site nav*/
-.site-nav .link {
+.site-nav .link{
     color:var(--primary-text-color);
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus{
@@ -55,7 +69,7 @@ body{
 .auth-nav{
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,14px;
+    line-height: 1,14;
 }
 
 .portfolio:hover,
@@ -67,11 +81,10 @@ body{
     color: var(--accent-color);
     font-weight: 900;
     font-size: 44px;
-    line-height: 1,36px;
+    line-height: 1,36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-
 }
 /*Section*/
 .hero{
@@ -83,45 +96,96 @@ body{
 color: var(--primary-text-color);
 }
 .paragraph{
-    color: #757575;
+    color:var(--secondary-text-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,71;
 }
 .section-title{
     color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1,14;
+    text-transform: uppercase;
 }
-
+.section-title2{
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+}
 .button-hero{
     color: var(--primary-text-color);
     background-color:var(--primary-bg-color);
-    font-family: Roboto;
     font-weight: 700;
     font-size: 16px;
-    line-height: 1,87px;
+    line-height: 1,87;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
-.button-hero {
-    color: var(--clear-white-color);
-    background-color: var(--accent-color);
-  }
-.button {
+.button-hero{
     background-color: var(--navigation-color);
-    color: #FFF;
+    color:var(--primary-white-color);
     font-family: inherit;
-    
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    text-align: center;
 }
-.header{
-    background-color: #FFF;
+
+.paragraph2{
+    color:var(--secondary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
 }
+.people{
+    background: var(--background-color3);
+}
+.title{
+    font-weight: 700;
+    font-size: 14px;
+    height: 1.14;
+}
+.title2{
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+}
+/*Footer*/
 .logo-footer{
     color:var(--accent-color);
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
 }
 .logotype-footer{
     color:var(--navigation-color);
 }
 .footer{
-    background-color: var(--background-color);
+    background-color: var(--background-color); 
 }
 .city{
     color:var(--primary-white-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;
 }
 .adress{
     color: var(--adress-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;
 }
