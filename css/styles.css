@@ -99,6 +99,18 @@ body {
   font-size: 14px;
   line-height: 1.71;
 }
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
 .section-title {
   color: var(--primary-text-color);
   font-weight: 700;
@@ -132,7 +144,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   margin: 0 auto;
-  /* cursor: pointer; */
+  cursor: pointer;
 }
 .button2 {
   color: var(--primary-text-color);
@@ -171,6 +183,7 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  text-transform: uppercase;
 }
 .title2 {
   color: var(--primary-text-color);
